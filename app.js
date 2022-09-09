@@ -5,6 +5,7 @@ var playerbtn = document.querySelector("#nplayer_button");
 var resetbtn = document.getElementById("reset_button");
 var savebtn = document.createElement('button');
 var startbtn = document.createElement('button');
+var spinbtn = document.createElement('button');
 
 // Reload page and reset game
 
@@ -39,7 +40,7 @@ playerbtn.addEventListener("click", function(){
 //Get player names and save them in an array
 
 savebtn.addEventListener("click", function(){
-    for (let i=0, max=playerfieldids.length; i < max; i++) {
+    for (let i = 0, max = playerfieldids.length; i < max; i++) {
         playername = document.getElementById(playerfieldids[i]).value;
         playerfieldelement = document.getElementById(playerfieldids[i]);
         sectionparent = document.getElementById(sectionids[i]);
@@ -57,68 +58,32 @@ document.body.replaceChild(startbtn, oldbtn);
 
 //Create circle and place names around circle
 
-
-//function setup(w, h){
-//    createCanvas(w, h);
-//    background("#efefef");
-//};
-
-//function draw(width, height){
-//    stroke('black');
-//    strokeWeight(15);
-//    noFill();
-//    circle(width / 2, height / 2, 512);
-//};
-
-
-
+var Position = {
+    ellipse : function(n, rx, ry, so, wh, idd, cls, cw) {
+      var m = document.createElement('div'), ss = document.styleSheets;
+      ss[0].insertRule('#' + idd + ' { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%; width: ' + String((rx * 2) + wh) + 'px; height: ' + String((ry * 2) + wh) + 'px; }', 1);
+      ss[0].insertRule('.' + cls + '{ position: absolute; background: black; color: papayawhip; text-align: center; transition: transform 0.2s ease; width: ' + wh + 'px; height: ' + wh + 'px; line-height: ' + wh + 'px;}', 1);
+      ss[0].insertRule('.' + cls + ':hover { transform: scale(1.2); cursor: pointer; background: rgba(0, 0, 0, 0.8); }', 1);
+      m.id = idd;
+      for (var i = 0, max = players.length; i < max; i++) {
+        var c = document.createElement('div');
+        c.className = cls;
+        c.innerHTML = players[i];
+        c.style.top = String(ry + -ry * Math.cos((360 / n / 180) * (i + so) * Math.PI)) + 'px';
+        c.style.left = String(rx + rx * (cw ? Math.sin((360 / n / 180) * (i + so) * Math.PI) : -Math.sin((360 / n / 180) * (i + so) * Math.PI))) + 'px';
+        m.appendChild(c);
+      }
+      document.body.appendChild(m);
+    }
+  }
 
 startbtn.addEventListener("click", function(){
     document.body.innerHTML = '';
-    var cw = window.innerWidth;
-    var ch = window.innerHeight;
-    var color = "#efefef"
-    var canvas = function(sketch) {
-        sketch.setup = function() {
-          sketch.createCanvas(cw, ch);
-          sketch.background(color);
-        };
-        sketch.draw = function() {
-            sketch.ellipseMode(sketch.CENTER);
-            sketch.ellipse(cw / 2, ch / 2, 400, 400);
-            sketch.fill('green');
-
-        };
-      };    
-    var myp5 = new p5(canvas);
-    //function setup(w, h){
-    //    createCanvas(w, h);
-    //};
-    
-    //function draw(w, h){
-    //        stroke('black');
-    //        strokeWeight(15);
-    //        noFill();
-    //        circle(w / 2, h / 2, 216);
-    //};
-    //setup();
-    //draw();
+    let circle = document.createElement('div');
+    circle.className = "Test";
+    document.body.appendChild(circle);
+    Position.ellipse(players.length, 150, 150, 0, 35, 'main', 'node', true);
+    savebtn.id = "spin_button";
+    savebtn.textContent = "Spin";
+    document.body.appendChild(savebtn);
 });
-
-
-
-
-//btn.addEventListener("click", function(){
-//  var player1 = document.getElementById("firsttext");
-//  var player2 = document.getElementById("secondtext");
-//  
-//  if (player1.value != "" && player2.value != "") {
-//    firsttext.push(player1.value);
-//    firsttext.push(player2.value);
-//    alert(firsttext);
-//    return firsttext;
-//  } else {
-//  	alert("Enter players' names");
-//  }
-//	
-//});

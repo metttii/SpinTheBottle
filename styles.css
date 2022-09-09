@@ -1,0 +1,29 @@
+
+body {
+  margin: 0 auto;
+  background: rgb(198, 193, 173 );
+}
+/* .circle{
+  background: #000;
+      height: 30px;
+    width: 30px;
+} */
+.Test{
+  z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px dashed #000;
+  
+/*   needs to be dynamic */
+    width: 270px;
+    height: 270px;
+/*   ////////////// */
+  
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+}
+/* #main{
+  background: red;
+} */
