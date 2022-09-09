@@ -39,7 +39,7 @@ img {
   transform:rotate(0);  
 
   /* CSS transition creates smooth effect */
-  transition:all 2s;
+  transition:all 4s;
 }
 
 .spinner {
@@ -47,5 +47,5 @@ img {
   justify-content: center;
   height: auto;
   transform:rotate(-90deg);  
-  transition:all 2s;
+  transition:all 4s;
 }

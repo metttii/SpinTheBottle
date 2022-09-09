@@ -122,7 +122,7 @@ startbtn.addEventListener("click", function(){
 spinbtn.addEventListener("click", function(){
     const randomdeg = Math.floor(Math.random() * angles.length);
     console.log(randomdeg, angles[randomdeg]);
-    spinvalue = angles[randomdeg] - 90;
+    spinvalue = angles[randomdeg] * 50 - 90;
     console.log(spinvalue);
     document.getElementById("arrow_png").style.transform = "rotate(" + spinvalue + "deg)";
 });
