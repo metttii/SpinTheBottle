@@ -75,8 +75,8 @@ document.body.replaceChild(startbtn, oldbtn);
 
 startbtn.addEventListener("click", function(){
     document.body.innerHTML = '';
-    var cw = window.innerWidth/2;
-    var ch = window.innerHeight/2;
+    var cw = window.innerWidth;
+    var ch = window.innerHeight;
     var color = "#efefef"
     var canvas = function(sketch) {
         sketch.setup = function() {
@@ -84,8 +84,8 @@ startbtn.addEventListener("click", function(){
           sketch.background(color);
         };
         sketch.draw = function() {
-            sketch.ellipseMode(sketch.RADIUS);
-            sketch.ellipse(100, 100, 100, 100);
+            sketch.ellipseMode(sketch.CENTER);
+            sketch.ellipse(cw / 2, ch / 2, 400, 400);
             sketch.fill('green');
 
         };
