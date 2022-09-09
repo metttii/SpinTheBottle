@@ -1,29 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+html {
+  font-family: 'Source Sans Pro';
+  background: #282828;
+  text-align: center;
+  font-size: 10px;
+}
 
 body {
-  margin: 0 auto;
-  background: rgb(198, 193, 173 );
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
 }
-/* .circle{
-  background: #000;
-      height: 30px;
-    width: 30px;
-} */
-.Test{
+.circle{
   z-index: 1;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px dashed #000;
-  
-/*   needs to be dynamic */
+    border: 7px solid #282828;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+                inset 4px 4px 10px rgba(0,0,0,0.5),
+                inset -4px -4px 10px rgba(67,67,67,0.5),
+                4px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 50%;
     width: 270px;
     height: 270px;
-/*   ////////////// */
-  
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.2);
 }
-/* #main{
-  background: red;
-} */
+
+img {
+  /* Initial value for rotate is needed for transition to work */
+  transform:rotate(0);  
+
+  /* CSS transition creates smooth effect */
+  transition:all 2s;
+}
+
+.spinner {
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  transform:rotate(-90deg);  
+  transition:all 2s;
+}
