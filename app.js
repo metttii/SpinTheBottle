@@ -10,6 +10,7 @@ var startbtn = document.createElement('button');
 var spinbtn = document.createElement('button');
 var spinner = document.createElement('img');
 
+
 // Reload page and reset game
 
 resetbtn.addEventListener("click", function(){
@@ -30,7 +31,7 @@ playerbtn.addEventListener("click", function(){
     startsection.innerHTML = '';
     for (let i = 0; i < nplayers; i++) {
         let inputfield = document.createElement("input");
-        let section = document.createElement("section");
+        let section = document.createElement("div");
         section.id = `sec_player_${i+1}`;
         inputfield.id = `inp_player_${i+1}`;
         inputfield.type = 'text';
@@ -43,6 +44,7 @@ playerbtn.addEventListener("click", function(){
     };
     savebtn.id = "saveplayer_button";
     savebtn.textContent = "Save Players";
+    savebtn.className = "inputfield";
     document.body.appendChild(savebtn);
 });
 
@@ -56,11 +58,13 @@ savebtn.addEventListener("click", function(){
         players.push(playername);
         let newItem = document.createElement('h');
         newItem.innerHTML = playername;
+        newItem.className = 'playername'
         sectionparent.replaceChild(newItem, playerfieldelement);
     }
 console.log(players);
 startbtn.id = "start_button";
 startbtn.textContent = "Start Game";
+startbtn.className = "button";
 oldbtn = document.getElementById("saveplayer_button");
 document.body.replaceChild(startbtn, oldbtn);
 });
@@ -103,6 +107,8 @@ var Position = {
     }
   };
 
+var spinfield = [];
+
 startbtn.addEventListener("click", function(){
     document.body.innerHTML = '';
     let circle = document.createElement('div');
@@ -117,12 +123,16 @@ startbtn.addEventListener("click", function(){
     spinner.id = "arrow_png";
     spinner.alt = "";
     circle.appendChild(spinner);
+    console.log(spinfield);
+
 });
 
-spinbtn.addEventListener("click", function(){
-    const randomdeg = Math.floor(Math.random() * angles.length);
-    console.log(randomdeg, angles[randomdeg]);
-    spinvalue = angles[randomdeg] * 50 - 90;
-    console.log(spinvalue);
-    document.getElementById("arrow_png").style.transform = "rotate(" + spinvalue + "deg)";
+$(document).on('keypress', function(e){
+    if(e.which == 13) {
+        console.log(angles.length);
+        var finalrandomdeg = Math.floor(Math.random() * angles.length);
+        var ranresult = 720 * Math.floor(Math.random() * 20);
+        var target = angles[finalrandomdeg] - 90 + ranresult;
+        document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
+    }
 });
