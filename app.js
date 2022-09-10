@@ -60,7 +60,6 @@ savebtn.addEventListener("click", function(){
         newItem.className = 'playername'
         sectionparent.replaceChild(newItem, playerfieldelement);
     }
-console.log(players);
 startbtn.id = "start_button";
 startbtn.textContent = "Start Game";
 startbtn.className = "button";
@@ -87,7 +86,7 @@ var Position = {
     ellipse : function(n, rx, ry, so, wh, idd, cls, cw) {
       var m = document.createElement('div'), ss = document.styleSheets;
       ss[0].insertRule('#' + idd + ' { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%; width: ' + String((rx * 2) + wh) + 'px; height: ' + String((ry * 2) + wh) + 'px; }', 1);
-      ss[0].insertRule('.' + cls + '{ position: absolute; background: rgba(0, 0, 0, 0.2); color: #ffffff; text-align: center; transition: transform 0.2s ease; width: fit-content; height: fit-content; border: 3px solid #282828; border-radius: 5px; box-shadow: -2px -2px 5px rgba(67,67,67,0.5), inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(67,67,67,0.5), 2px 2px 5px rgba(0,0,0,0.3);  padding: 1% 2% 1% 2%; display: inline-block}', 1);
+      ss[0].insertRule('.' + cls + '{ position: absolute; color: #ffffff; text-align: center; transition: transform 0.2s ease; width: fit-content; height: fit-content; background: #1E1E1E; border: 2px solid #282828; box-shadow: 0px 0px 8px 1px #3E3E3E, inset 0px 0px 7px 8px rgba(0, 0, 0, 0.25); border-radius: 10%;  padding: 1% 2% 1% 2%; display: inline-block}', 1);
       m.id = idd;
       for (var i = 0, max = players.length; i < max; i++) {
         var c = document.createElement('div');
@@ -102,7 +101,6 @@ var Position = {
         m.appendChild(c);
       };
       document.body.appendChild(m);
-      console.log(angles);
     }
   };
 
@@ -113,6 +111,7 @@ startbtn.addEventListener("click", function(){
     let circle = document.createElement('div');
     circle.className = "circle";
     circle.id = "circle"
+    circle.setAttribute("onclick", 'spin("Spinning...")');
     document.body.appendChild(circle);
     Position.ellipse(players.length, 200, 200, 0, 35, 'main', 'node', true);
     //spinbtn.id = "spin_button";
@@ -123,15 +122,13 @@ startbtn.addEventListener("click", function(){
     spinner.id = "arrow_png";
     spinner.alt = "";
     circle.appendChild(spinner);
-    var arrow = document.getElementById("circle");
-    console.log(arrow);
 });
 
 //Spin on enter
 
 
-arrow.onclick = function(){
-    console.log(angles.length);
+function spin(s){
+    console.log(s)
     var finalrandomdeg = Math.floor(Math.random() * angles.length);
     var ranresult = 720 * Math.floor(Math.random() * 20);
     var target = angles[finalrandomdeg] - 90 + ranresult;
