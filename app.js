@@ -96,11 +96,15 @@ var Position = {
         angles.push(angle);
         c.className = cls;
         c.innerHTML = players[i];
-        c.style.top = y + 'px';
-        c.style.left = x + 'px';
+        console.log(players[i].length)
+        c.id = "player_" + i
+        c.style.top = y  + 'px';
+        c.style.left = x  + 'px';
         m.appendChild(c);
+        
       };
       document.body.appendChild(m);
+      
     }
   };
 
@@ -113,10 +117,7 @@ startbtn.addEventListener("click", function(){
     circle.id = "circle"
     circle.setAttribute("onclick", 'spin("Spinning...")');
     document.body.appendChild(circle);
-    Position.ellipse(players.length, 200, 200, 0, 35, 'main', 'node', true);
-    //spinbtn.id = "spin_button";
-    //spinbtn.textContent = "Spin";
-    //document.body.appendChild(spinbtn);
+    Position.ellipse(players.length, 200, 200, 0, 50, 'playercircle', 'player', true);
     spinner.src = "arrow.png";
     spinner.className = "spinner";
     spinner.id = "arrow_png";
@@ -128,6 +129,7 @@ startbtn.addEventListener("click", function(){
 
 
 function spin(s){
+    console.clear()
     console.log(s)
     var finalrandomdeg = Math.floor(Math.random() * angles.length);
     var ranresult = 720 * Math.floor(Math.random() * 20);
