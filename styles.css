@@ -22,6 +22,8 @@ body {
 #start_section {
   display: flex;
   align-items: center;
+  min-width: 70vw;
+  border: #ffffff;
   bottom: 20px;
   top: 20px;
   height: auto;
@@ -43,7 +45,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin: 20px;
+  margin: 2%;
 }
 
 .button {
@@ -66,14 +68,13 @@ body {
   padding: 0.2em 0.5em;
   border: none;
   outline: none;
+  min-width: 30vw;
+  text-align: center;
   color: rgb(255, 255, 255);
   background: #111;
   position: relative;
   z-index: 0;
   border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   margin: 2%;
 }
 
