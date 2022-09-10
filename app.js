@@ -6,10 +6,22 @@ var playerbtn = document.querySelector("#nplayer_button");
 var resetbtn = document.getElementById("reset_button");
 var savebtn = document.createElement('button');
 var startbtn = document.createElement('button');
-//var spinbtn = document.createElement('button');
 var spinner = document.createElement('img');
+var challengewindow = document.createElement('div')
+var closechallengewindow = document.createElement('button');
 
 
+//Get Data from JSON file and make it digestible
+
+var challenges = [];
+
+async function getDatafromJSON() {
+    const response = await fetch('./challenges.json');
+    var data = await response.json();
+    challenges.push.apply(challenges, data);
+};
+getDatafromJSON()
+console.log(challenges)
 // Reload page and reset game
 
 resetbtn.addEventListener("click", function(){
@@ -135,4 +147,24 @@ function spin(s){
     var ranresult = 720 * Math.floor(Math.random() * 20);
     var target = angles[finalrandomdeg] - 90 + ranresult;
     document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
+    setTimeout(displayChallange, 6000);
 };
+
+
+
+function displayChallange()
+{
+    challengewindow.id = "challenge";
+    challengewindow.className = "challenge";
+    let task = challenges[Math.floor(Math.random()*challenges.length)];
+    challengewindow.innerHTML = '<p id="challengepar" class="challengepar">' + task.challenge + '</p>';
+    document.body.appendChild(challengewindow);
+    closechallengewindow.id = "close_challenge";
+    closechallengewindow.textContent = "Close";
+    closechallengewindow.className = "button";
+    closechallengewindow.type = "button";
+    challengewindow.appendChild(closechallengewindow);
+    closechallengewindow.addEventListener("click", function(){
+        document.body.removeChild(challengewindow);
+    });
+}

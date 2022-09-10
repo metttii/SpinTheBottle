@@ -1,0 +1,799 @@
+[
+{
+    "id" : "1",
+    "challenge" : "Challenger, fülle deinen Mund für 2 Minuten mit Wasser. Spinner, schaffe es, dass Challenger das Wasser ausspuckt! Der Verlierer/Die Verliererin muss trinken!"
+    },
+
+    {
+    "id" : "2",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "3",
+    "challenge" : "Staring contest mit der Person gegenüber!"
+    },
+
+    {
+    "id" : "4",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "5",
+    "challenge" : "Schließe deine Augen für 2 Minuten. Einer / Eine aus der Runde muss versuchen sie wieder zu öffnen."
+    },
+
+    {
+    "id" : "6",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "7",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "8",
+    "challenge" : "Du darfst nicht reden, bis jemand dich erlöst."
+    },
+
+    {
+    "id" : "9",
+    "challenge" : "Halte für 2 Minuten händchen mit der Person links neben dir."
+    },
+
+    {
+    "id" : "10",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "11",
+    "challenge" : "Neue Regel!"
+    },
+    
+    {
+    "id" : "12",
+    "challenge" : "Leg dein Handy auf den Tisch. Wenn innerhalb von 2 Minuten eine Benachrichtigung kommt musst du trinken."
+    },
+
+    {
+    "id" : "13",
+    "challenge" : "Vergleiche deinen aktuellen Akkustand mit der Person rechts neben dir. Der / Die niedrigere muss trinken!"
+    },
+    
+    {
+    "id" : "14",
+    "challenge" : "Lese deine letzte Nachricht laut vor."
+    },
+
+    {
+    "id" : "15",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "16",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "17",
+    "challenge" : "Einer / Eine aus der Runde muss mir einen Drink holen."
+    },
+
+    {
+    "id" : "18",
+    "challenge" : "Platziere deine Hände auf dem Tisch/Boden. Einer / Eine aus der Runde hat 30 Sekunden Zeit die Hände aufzuheben!"
+    },
+
+    {
+    "id" : "19",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "20",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "21",
+    "challenge" : "Höre für 90 Sekunden nicht auf zu reden."
+    },
+
+    {
+    "id" : "22",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "23",
+    "challenge" : "Vergleiche deine Handgröße mit der Person links von dir."
+    },
+
+    {
+    "id" : "24",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "25",
+    "challenge" : "Wildcard!"
+    },
+
+    {
+    "id" : "26",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "27",
+    "challenge" : "Balanciere dein Handy für 90 Sekunden auf der Stirn."
+    },
+
+    {
+    "id" : "28",
+    "challenge" : "Einer / Eine aus der Runde muss die Farben meiner Socken erraten."
+    },
+
+    {
+    "id" : "29",
+    "challenge" : "Frag jemanden aus der Runde was deine Lieblingsfarbe ist."
+    },
+
+    {
+    "id" : "30",
+    "challenge" : "Du hast 50 Sekunden Zeit 3 rote Dinge einzusammeln."
+    },
+
+    {
+    "id" : "31",
+    "challenge" : "Du hast 20 Sekunden Zeit alle Namen in der Runde zu nennen."
+    },
+
+    {
+    "id" : "31",
+    "challenge" : "Stehe für 3 Minuten auf und setz dich wieder. Dann einmal Trinken :)"
+    },
+
+    {
+    "id" : "32",
+    "challenge" : "Neue Regel!"
+    },
+
+    {
+    "id" : "33",
+    "challenge" : "Zeig allen dein Bankkonto."
+    },
+
+    {
+    "id" : "34",
+    "challenge" : "Du hast 30 Sekunden Zeit einen Stein zu finden!"
+    },
+
+    {
+    "id" : "35",
+    "challenge" : "Challenger, trinke!"
+    },
+
+    {
+    "id" : "36",
+    "challenge" : "Spinner, wähle einen neuen Drink für Challenger aus."
+    },
+
+    {
+    "id" : "37",
+    "challenge" : "90 Sekunden kompletter Stillstand!"
+    },
+
+    {
+    "id" : "38",
+    "challenge" : "Challenger, take out your phone, close your eyes and type out the lyrics of your favorite song. If no can can guess the song you forfeit!"
+    },
+
+    {
+    "id" : "39",
+    "challenge" : "Imitiere einen Schauspieler / eine Schauspielerin. Wer es als erste(r) herausfindet darf verteilen."
+    },
+
+    {
+    "id" : "39",
+    "challenge" : "Spinner, do an impression of the Challenger. If they laugh they forfeit!"
+    },
+
+    {
+    "id" : "40",
+    "challenge" : "Wann hattest du das letzte Mal Sex?"
+    },
+
+    {
+    "id" : "41",
+    "challenge" : "Mit wem hattest du das letzte Mal Sex?"
+    },
+
+        {
+    "id" : "42",
+    "challenge" : "Wenn du mit einer Person in der Runde schlafen müsstest, wen würdest du auswählen?"
+    },
+        {
+    "id" : "43",
+    "challenge" : "Wen in der Runde würdest du am ehesten küssen und warum?"
+    },
+        {
+    "id" : "44",
+    "challenge" : "Hattest du schon mal einen Dreier?"
+    },
+
+        {
+    "id" : "45",
+    "challenge" : "Hast du schon mal von einem Dreier geträumt?"
+    },
+
+        {
+    "id" : "46",
+    "challenge" : "Wann hattest du deinen letzten feuchten Traum?"
+    },
+
+        {
+    "id" : "47",
+    "challenge" : "Was war der verrückteste Ort an dem du jemals Sex hattest?"
+    },
+
+        {
+    "id" : "48",
+    "challenge" : "Wie oft hast du Sex?"
+    },
+
+        {
+    "id" : "49",
+    "challenge" : "Wann hast du das letzte Mal masturbiert?"
+    },
+
+        {
+    "id" : "50",
+    "challenge" : "Wie schafft man es am besten dich zu erregen?"
+    },
+
+            {
+    "id" : "51",
+    "challenge" : "Hast du schon mal mit jemandem aus der Runde geschlafen oder geknutscht?"
+    },
+
+            {
+    "id" : "52",
+    "challenge" : "Welches Körperteil turnt dich am meisten an?"
+    },
+
+            {
+    "id" : "53",
+    "challenge" : "Wen aus der Runde würdest du am liebsten nackt sehen wollen?"
+    },
+
+            {
+    "id" : "54",
+    "challenge" : "Welche ist deine Lieblingsstellung?"
+    },
+
+            {
+    "id" : "55",
+    "challenge" : "Hattest du schon mal einen One Night Stand?"
+    },
+
+        {
+    "id" : "56",
+    "challenge" : "Mit wie vielen Personen hattest du schon Sex?"
+    },
+
+            {
+    "id" : "57",
+    "challenge" : "Wieso bist du gut im Bett?"
+    },
+
+            {
+    "id" : "58",
+    "challenge" : "Wie kriegt man dich am besten rum?"
+    },
+
+            {
+    "id" : "59",
+    "challenge" : "Mit wem hattest du bisher das beste Sex Erlebnis deines Lebens?"
+    },
+
+            {
+    "id" : "60",
+    "challenge" : "Hast du schon mal Nacktbilder verschickt?"
+    },
+
+            {
+    "id" : "61",
+    "challenge" : "Gefällt dir Analsex?"
+    },
+
+        {
+    "id" : "62",
+    "challenge" : "Bist du eher dominant oder devot?"
+    },
+
+            {
+    "id" : "63",
+    "challenge" : "Welche Kleidung findest du besonders sexy an dir?"
+    },
+
+            {
+    "id" : "64",
+    "challenge" : "Hast du schon mal jemanden gefesselt oder wurst du schon mal gefesselt?"
+    },
+
+            {
+    "id" : "65",
+    "challenge" : "Welches Pornogenre findest du am besten?"
+    },
+
+            {
+    "id" : "66",
+    "challenge" : "Hast du ein Sexspielzeug?"
+    },
+
+            {
+    "id" : "67",
+    "challenge" : "Küss deinen linken/rechten Nachbarn auf die Wange oder den Mund."
+    },
+
+                {
+    "id" : "68",
+    "challenge" : "Zeig uns deine Google Suchhistorie."
+    },
+
+            {
+    "id" : "69",
+    "challenge" : "Imitiere einen brunftigen Hirsch."
+    },
+
+                {
+    "id" : "70",
+    "challenge" : "Tausche dein Oberteil mit dem Spieler rechts von dir."
+    },
+
+                {
+    "id" : "71",
+    "challenge" : "Tausche dein Oberteil mit dem Spieler links von dir."
+    },
+
+                {
+    "id" : "72",
+    "challenge" : "Leg dich in die Mitte, schließ die Augen und lass dich eine Minute lang von allen kitzeln."
+    },
+
+                {
+    "id" : "73",
+    "challenge" : "Trinke einen Shot."
+    },
+
+                {
+    "id" : "74",
+    "challenge" : "Mach 10 Liegestütze."
+    },
+
+        {
+    "id" : "75",
+    "challenge" : "Mach ein Selfie von der Gruppe und poste es auf Instagram/Facebook/Snapchat."
+    },
+
+                {
+    "id" : "76",
+    "challenge" : "Mach der Person links/rechts von dir ein ernstgemeintes Kompliment."
+    },
+
+            {
+    "id" : "77",
+    "challenge" : "Teste wessen Haare am besten riechen."
+    },
+
+                {
+    "id" : "78",
+    "challenge" : "Imitiere eine Person aus der Runde. Die anderen müssen erraten, wer es ist."
+    },
+
+                {
+    "id" : "79",
+    "challenge" : "Trink das Getränk von dem Spieler links von dir auf ex. "
+    },
+
+                {
+    "id" : "80",
+    "challenge" : "Trink das Getränk von dem Spieler rechts von dir auf ex."
+    },
+
+                {
+    "id" : "81",
+    "challenge" : "Tanze 30 Sekunden sexy zu einem Lied."
+    },
+
+                {
+    "id" : "82",
+    "challenge" : "Beleidige die Person links von dir. "
+    },
+
+            {
+    "id" : "83",
+    "challenge" : "Beleidige die Person rechts von dir. "
+    },
+
+                {
+    "id" : "84",
+    "challenge" : "Schick einer Person per Whatsapp ein Kompliment. "
+    },
+
+            {
+    "id" : "85",
+    "challenge" : "Zeig allen ein peinliches Foto von dir. "
+    },
+
+                {
+    "id" : "86",
+    "challenge" : "Zeig allen deine letzte Whatsapp."
+    },
+
+                {
+    "id" : "87",
+    "challenge" : "Zeig allen das letzte Foto was du geschossen hast. "
+    },
+
+                {
+    "id" : "89",
+    "challenge" : "Umarme die Person gegenüber so herzlich wie möglich. "
+    },
+
+                {
+    "id" : "90",
+    "challenge" : "Flirte eine Runde mit der Person links von dir."
+    },
+
+                {
+    "id" : "91",
+    "challenge" : "Flirte eine Runde mit der Person rechts von dir."
+    },
+
+            {
+    "id" : "92",
+    "challenge" : "Erzähl der Person gegenüber, was du besonders attraktiv an ihr findest."
+    },
+
+                {
+    "id" : "93",
+    "challenge" : "Schrei 10 schlimme Schimpfwörter."
+    },
+
+            {
+    "id" : "94",
+    "challenge" : "Nimm einen Eiswürfel und steck ihn dir in die Hose."
+    },
+
+                {
+    "id" : "95",
+    "challenge" : "Schick jemandem der nicht mitspielt ein Bild von deinen nackten Füßen."
+    },
+
+                {
+    "id" : "96",
+    "challenge" : "Schütte dir einen Drink ein, ohne die Hände zu benutzen. "
+    },
+
+                {
+    "id" : "97",
+    "challenge" : "Ruf die fünft letzte Nummer die du gewählt hast an, frag die Person wie das folgende Lied heißt und sing es ihr vor, bis sie den Titel nennt. "
+    },
+
+                {
+    "id" : "98",
+    "challenge" : "Du bist für eine Runde der Buttler. Achte darauf, dass alle Gäste immer genug zu trinken haben und behandle sie mit ausreichend Respekt. "
+    },
+
+                {
+    "id" : "99",
+    "challenge" : "Du hast dich schlecht verhalten. Stell dich eine Runde in die Ecke und schäm dich. "
+    },
+
+            {
+    "id" : "100",
+    "challenge" : "Lass einen Spieler an deiner Achsel riechen. "
+    },
+
+                {
+    "id" : "101",
+    "challenge" : "Tausche dein T-Shirt mit der Person rechts neben dir."
+    },
+
+            {
+    "id" : "102",
+    "challenge" : "Gib deinem linken Nachbarn dein Handy und lass ihn in deine Foto-Galerie schauen."
+    },
+
+                {
+    "id" : "103",
+    "challenge" : "Lege einen Moonwalk wie Michael Jackson hin."
+    },
+
+                {
+    "id" : "104",
+    "challenge" : "Laufe wie bei Germany's Next Topmodel über den Catwalk."
+    },
+
+                {
+    "id" : "105",
+    "challenge" : "Jaule 20 Sekunden lang wie ein Wolf - ohne zu lachen!"
+    },
+
+                {
+    "id" : "106",
+    "challenge" : "Stell dich in die Mitte, schließ deine Augen und lass dich von einem zufälligen Mitspieler küssen."
+    },
+
+                {
+    "id" : "107",
+    "challenge" : "Gib dem Spieler links von dir einen Kuss."
+    },
+
+            {
+    "id" : "108",
+    "challenge" : "Gib dem Spieler rechts von dir einen Kuss."
+    },
+
+                {
+    "id" : "109",
+    "challenge" : "Geh auf alle Viere und lass dir auf den Hintern hauen."
+    },
+
+            {
+    "id" : "110",
+    "challenge" : "Erzähle allen von einer Sexphantasie."
+    },
+
+                {
+    "id" : "111",
+    "challenge" : "Flüster der Person gegenüber etwas heißes ins Ohr."
+    },
+
+                {
+    "id" : "112",
+    "challenge" : "Twerke für eine Minute in der Mitte."
+    },
+
+                {
+    "id" : "113",
+    "challenge" : "Sag jedem in der Runde, was an ihm sexy ist."
+    },
+
+                {
+    "id" : "114",
+    "challenge" : "Schätze wer in der Runde am besten im Bett ist und warum."
+    },
+
+                {
+    "id" : "115",
+    "challenge" : "Lass den Spieler links von dir etwas von deinem Hals lecken."
+    },
+
+                {
+    "id" : "116",
+    "challenge" : "Erzähle allen von dem besten Sex deines Lebens."
+    },
+
+                    {
+    "id" : "117",
+    "challenge" : "Erzähle allen, wieso Sex mit dir ein besonderes Erlebnis ist."
+    },
+
+                    {
+    "id" : "118",
+    "challenge" : "Bestimme einen Spieler, der dir einen Zungenkuss geben muss."
+    },
+
+                    {
+    "id" : "119",
+    "challenge" : "Führe den perfekten Blowjob mit einem Gegenstand deiner Wahl vor."
+    },
+
+                    {
+    "id" : "120",
+    "challenge" : "Lass dir von deinem linken oder rechten Mitspieler einen Knutschfleck am Hals oder am Bauch verpassen."
+    },
+
+                    {
+    "id" : "121",
+    "challenge" : "Such dir jemanden aus, den du eine Runde lang erotisch massieren musst."
+    },
+
+                    {
+    "id" : "122",
+    "challenge" : "Trinke einen kleinen Schluck von allen Getränken deiner Mitspieler."
+    },
+
+                    {
+    "id" : "123",
+    "challenge" : "Wonach hast du als letztes gegoogelt?"
+    },
+
+                    {
+    "id" : "124",
+    "challenge" : "Welches ist dein aktuelles Lieblingslied? Schmeiß datt ding an!"
+    },
+
+                    {
+    "id" : "125",
+    "challenge" : "Von wem hast du deinen letzten Korb bekommen?"
+    },
+
+                    {
+    "id" : "126",
+    "challenge" : "Was war das gemeinste, was du je getan hast?"
+    },
+
+                    {
+    "id" : "127",
+    "challenge" : "Was war das kriminellste, was du je getan hast?"
+    },
+
+                    {
+    "id" : "128",
+    "challenge" : "Wer in der Runde hat die schönsten Lippen?"
+    },
+
+                    {
+    "id" : "129",
+    "challenge" : "Wer in der Runde hat den schönsten Hintern?"
+    },
+
+                {
+    "id" : "130",
+    "challenge" : "Mit wem in der Runde würdest du gerne für einen Tag das Leben tauschen?"
+    },
+
+                {
+    "id" : "131",
+    "challenge" : "Was war deine letzte Lüge?"
+    },
+
+                    {
+    "id" : "132",
+    "challenge" : "Was würdest du machen, wenn du nur noch eine Stunde zu leben hättest?"
+    },
+
+                    {
+    "id" : "133",
+    "challenge" : "Was turnt dich bei Frauen/Männern besonders an?"
+    },
+
+                    {
+    "id" : "134",
+    "challenge" : "Stöhne laut!"
+    },
+
+                    {
+    "id" : "135",
+    "challenge" : "Iss ein Stück Knoblauch."
+    },
+
+                    {
+    "id" : "136",
+    "challenge" : "Füttere die Person rechts neben dir mit etwas Leckerem."
+    },
+
+                    {
+    "id" : "137",
+    "challenge" : "Sprich mit bayrischem/sächsischem/einem anderen Dialekt."
+    },
+
+                    {
+    "id" : "138",
+    "challenge" : "Stecke dir Eiswürfel in die Hose."
+    },
+
+                    {
+    "id" : "139",
+    "challenge" : "Schreibe eine versaute Nachricht an deinen letzten WhatsApp-Kontakt."
+    },
+
+                    {
+    "id" : "140",
+    "challenge" : "Der Spieler / Die Spielerin rechts von dir darf dir ein Gebräu aus allen möglichen Zutaten mischen und du musst es trinken."
+    },
+
+                    {
+    "id" : "141",
+    "challenge" : "Iss einen Esslöffel Senf."
+    },
+
+                    {
+    "id" : "142",
+    "challenge" : "Ziehe ein Kleidungsstück aus."
+    },
+
+                    {
+    "id" : "143",
+    "challenge" : "Wer aus der Runde sollte am dringendsten zum Friseur?"
+    },
+
+                    {
+    "id" : "144",
+    "challenge" : "Was wissen deine Eltern nicht über dich?"
+    },
+
+                {
+    "id" : "145",
+    "challenge" : "Hast du verborgene Talente? Zeig!"
+    },
+
+                {
+    "id" : "146",
+    "challenge" : "Rede mit dem Stuhl und tu so als würde er antworten."
+    },
+
+                    {
+    "id" : "147",
+    "challenge" : "Halte 20 Sekunden die Luft an."
+    },
+
+                    {
+    "id" : "148",
+    "challenge" : "Sprich 1 Runde lang nur englisch."
+    },
+
+                    {
+    "id" : "149",
+    "challenge" : "Bring die rechts zum lachen (ohne Hilfsmittel)"
+    },
+
+                    {
+    "id" : "150",
+    "challenge" : "Sage das ABC rückwärts auf. Ein Fehler -> Trinken!"
+    },
+
+                    {
+    "id" : "151",
+    "challenge" : "15 Sekunden lang nicht blinzeln."
+    },
+
+                    {
+    "id" : "152",
+    "challenge" : "Rufe jemanden an und frage wie spät es ist"
+    },
+
+                    {
+    "id" : "153",
+    "challenge" : "Tu so als währst du besoffen."
+    },
+
+                    {
+    "id" : "154",
+    "challenge" : "Sei ein/eine Hellseher/in und sage die Zukunft von dem Links voraus"
+    },
+
+                    {
+    "id" : "155",
+    "challenge" : "Zeige das letzte Bild das du auf deinem Handy gemacht hast"
+    },
+
+                    {
+    "id" : "156",
+    "challenge" : "Der Links von dir darf sich einen Spitznamen für dich ausdenken und muss dich dann so nennen."
+    },
+
+                    {
+    "id" : "157",
+    "challenge" : "Schultermassage für dein Gegenüber!"
+    },
+
+                    {
+    "id" : "158",
+    "challenge" : "Lasse dir von dem rechts von dir ein Getränk aus 4 Zutaten mischen."
+    },
+
+                    {
+    "id" : "159",
+    "challenge" : "Springe in den Pool!"
+    }
+]
