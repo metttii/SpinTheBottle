@@ -5,6 +5,7 @@ html {
   font-family: 'Source Sans Pro';
   background: #282828;
   font-size: 10px;
+  overflow: hidden;
 }
 
 body {
@@ -19,12 +20,23 @@ body {
   flex-direction: column;
 }
 
+.title {
+  font-size: 8rem;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.creds {
+  text-align: center;
+  color: #ffffff;
+}
+
 #start_section {
   display: flex;
   align-items: center;
   /*min-width: 70vw;*/
   border: #ffffff;
-  height: 100vh;
+  height: 87vh;
   justify-content: center;
   align-content: center;
   flex-direction: column;
