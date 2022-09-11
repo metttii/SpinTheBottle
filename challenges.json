@@ -1,7 +1,7 @@
 [
 {
     "id" : "1",
-    "challenge" : "Challenger, fülle deinen Mund für 2 Minuten mit Wasser. Spinner, schaffe es, dass Challenger das Wasser ausspuckt! Der Verlierer/Die Verliererin muss trinken!"
+    "challenge" : "Fülle deinen Mund für 2 Minuten mit Wasser. Alle anderen versuchen, dass du das Wasser ausspuckst. Der Verlierer/Die Verliererin muss trinken!"
     },
 
     {
@@ -136,7 +136,7 @@
 
     {
     "id" : "28",
-    "challenge" : "Einer / Eine aus der Runde muss die Farben meiner Socken erraten."
+    "challenge" : "Einer / Eine aus der Runde muss die Farben deiner Socken erraten."
     },
 
     {
@@ -176,12 +176,12 @@
 
     {
     "id" : "35",
-    "challenge" : "Challenger, trinke!"
+    "challenge" : "Drink!"
     },
 
     {
     "id" : "36",
-    "challenge" : "Spinner, wähle einen neuen Drink für Challenger aus."
+    "challenge" : "Drink!"
     },
 
     {
@@ -191,7 +191,7 @@
 
     {
     "id" : "38",
-    "challenge" : "Challenger, take out your phone, close your eyes and type out the lyrics of your favorite song. If no can can guess the song you forfeit!"
+    "challenge" : "Drink!"
     },
 
     {
@@ -201,7 +201,7 @@
 
     {
     "id" : "39",
-    "challenge" : "Spinner, do an impression of the Challenger. If they laugh they forfeit!"
+    "challenge" : "Drink!"
     },
 
     {

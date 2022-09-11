@@ -22,43 +22,55 @@ body {
 #start_section {
   display: flex;
   align-items: center;
-  min-width: 70vw;
+  /*min-width: 70vw;*/
   border: #ffffff;
-  bottom: 20px;
-  top: 20px;
-  height: auto;
+  height: 100vh;
   justify-content: center;
   align-content: center;
   flex-direction: column;
 }
 
 .challenge {
-  position: fixed;
-  width: 90%;
-  height: 90%;
-  flex: 1;
-  z-index: 10;
-  border-radius: 10%;
-  background: #111;
+  font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
+  text-align: center;
+  padding: 0.5em 0.5em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+  border-radius: 20px;
+  margin: 2%;
+  flex-wrap: nowrap;
   flex-direction: column;
 }
 
 .challenge .challengepar {
-  color: rgb(255, 255, 255);
-  position: fixed;
-  font-size: 50px;
-  text-align: center;
-  margin: 3em;
-  z-index: 15;
+  padding: inherit;
 }
 
+.noclick {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+
+
 .inputfield {
-  padding: 0.6em 2em;
+  font-size: 2em;
   text-align: center;
+  width: 90%;
+  height: 60px;
+  padding: 0.6em 2em;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
@@ -71,6 +83,11 @@ body {
 }
 
 .button {
+  font-size: 2em;
+  text-align: center;
+  min-width: max-content;
+  /* width: 90%;
+  height: 100px; */
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -84,28 +101,28 @@ body {
 }
 
 .challenge .button {
-  padding: 0.6em 2em;
+  font-size: 0.8em;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
   background: rgb(255, 0, 0);
   cursor: pointer;
-  position: fixed;
   bottom: 15%;
-  z-index: 15;
-  border-radius: 10px;
-  margin: 2%;
+  z-index: 100;
   opacity: 1;
 }
 
 .playername {
+  font-size: 2em;
+  text-align: center;
+  width: 90%;
+  height: 60px;
   padding: 0.5em 0.5em;
   border: none;
   outline: none;
-  min-width: 10vw;
-  text-align: center;
   color: rgb(255, 255, 255);
   background: #111;
+  cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 10px;
@@ -114,17 +131,17 @@ body {
 
 .circle {
   z-index: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border: 7px solid #282828;
-    box-shadow: 0px 0px 10px 1px #3E3E3E, inset 0px 0px 14px 17px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 7px solid #282828;
+  box-shadow: 0px 0px 10px 1px #3e3e3e, inset 0px 0px 14px 17px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 img {
