@@ -1,6 +1,6 @@
 # Spin the Bottle!
 
-This is my first little project.
+This is my first little project written in JS. The code is far from beautiful and efficient but it works ;) 
 
 Usage:
 
