@@ -127,7 +127,7 @@ startbtn.addEventListener("click", function(){
     circle.setAttribute("onclick", 'spin("Spinning...")');
     document.body.appendChild(circle);
     Position.ellipse(players.length, 250, 250, 0, 50, 'playercircle', 'player', true);
-    spinner.src = "arrow.png";
+    spinner.src = "arrow2.png";
     spinner.className = "spinner";
     spinner.id = "arrow_png";
     spinner.alt = "";
@@ -142,7 +142,7 @@ function spin(s){
     console.log(s)
     var finalrandomdeg = Math.floor(Math.random() * angles.length);
     var ranresult = 720 * Math.floor(Math.random() * 20);
-    var target = angles[finalrandomdeg] - 90 + ranresult;
+    var target = angles[finalrandomdeg] + ranresult;
     selectedplayer = players[finalrandomdeg]
     document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
     if (numberpool.length > 0) {
@@ -170,7 +170,7 @@ function displayChallange() {
     challengewindow.innerHTML = '<div id="challengepar" class="challengepar">' + selectedplayer + '<br>' + '<br>' + task.challenge + '</div>';
     document.body.appendChild(challengewindow);
     closechallengewindow.id = "close_challenge";
-    closechallengewindow.textContent = "Close";
+    closechallengewindow.textContent = "Done!";
     closechallengewindow.className = "button";
     closechallengewindow.type = "button";
     challengewindow.appendChild(closechallengewindow);
