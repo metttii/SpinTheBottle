@@ -2,6 +2,7 @@ var players = [];
 var playerfieldids = [];
 var sectionids = [];
 var angles = [];
+var numberpool = []
 var selectedplayer = ""
 var playerbtn = document.querySelector("#nplayer_button");
 var savebtn = document.createElement('button');
@@ -28,7 +29,7 @@ console.log(challenges)
 
 playerbtn.addEventListener("click", function(){
     var nplayers = document.getElementById("nplayers").value;
-    if (nplayers > 2 && nplayers < 8) {
+    if (nplayers > 1 && nplayers < 8) {
     section = document.getElementById("start_section");
     section.innerHTML = '';
     for (let i = 0; i < nplayers; i++) {
@@ -130,7 +131,7 @@ startbtn.addEventListener("click", function(){
     circle.appendChild(spinner);
 });
 
-//Spin on enter
+//Spin when the arrow is clicked, disable further clicking
 
 
 function spin(s){
@@ -142,9 +143,13 @@ function spin(s){
     selectedplayer = players[finalrandomdeg]
     document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
     setTimeout(displayChallange, 6000);
+    noclick.className = "noclick";
+    noclick.id = "noclick";
+    document.body.appendChild(noclick);
 };
 
 
+//Display the player and the challenge; make background clickable again
 
 function displayChallange()
 {   let task = challenges[Math.floor(Math.random()*challenges.length)];
@@ -157,9 +162,6 @@ function displayChallange()
     closechallengewindow.className = "button";
     closechallengewindow.type = "button";
     challengewindow.appendChild(closechallengewindow);
-    noclick.className = "noclick";
-    noclick.id = "noclick";
-    document.body.appendChild(noclick);
     closechallengewindow.addEventListener("click", function(){
         document.body.removeChild(challengewindow);
         document.body.removeChild(noclick)
