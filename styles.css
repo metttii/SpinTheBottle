@@ -116,6 +116,7 @@ body {
   font-size: 2em;
   text-align: center;
   width: 90%;
+  min-width: fit-content;
   height: 60px;
   padding: 0.5em 0.5em;
   border: none;

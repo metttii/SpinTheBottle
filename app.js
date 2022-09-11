@@ -2,6 +2,7 @@ var players = [];
 var playerfieldids = [];
 var sectionids = [];
 var angles = [];
+var selectedplayer = ""
 var playerbtn = document.querySelector("#nplayer_button");
 var savebtn = document.createElement('button');
 var startbtn = document.createElement('button');
@@ -35,6 +36,7 @@ playerbtn.addEventListener("click", function(){
         inputfield.type = 'text';
         inputfield.className = "inputfield";
         inputfield.placeholder = `Player ${i+1} name`;
+        inputfield.maxLength = 21
         playerfieldids.push(inputfield.id);
         //sectionids.push(playersection.id);
         section.appendChild(inputfield);
@@ -132,6 +134,7 @@ function spin(s){
     var finalrandomdeg = Math.floor(Math.random() * angles.length);
     var ranresult = 720 * Math.floor(Math.random() * 20);
     var target = angles[finalrandomdeg] - 90 + ranresult;
+    selectedplayer = players[finalrandomdeg]
     document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
     setTimeout(displayChallange, 6000);
 };
@@ -142,7 +145,7 @@ function displayChallange()
 {   let task = challenges[Math.floor(Math.random()*challenges.length)];
     challengewindow.id = 'challenge_' + task.id;
     challengewindow.className = "challenge";
-    challengewindow.innerHTML = '<div id="challengepar" class="challengepar">' + task.challenge + '</div>';
+    challengewindow.innerHTML = '<div id="challengepar" class="challengepar">' + selectedplayer + '<br>' + '<br>' + task.challenge + '</div>';
     document.body.appendChild(challengewindow);
     closechallengewindow.id = "close_challenge";
     closechallengewindow.textContent = "Close";
