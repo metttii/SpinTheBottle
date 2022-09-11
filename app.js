@@ -28,6 +28,7 @@ console.log(challenges)
 
 playerbtn.addEventListener("click", function(){
     var nplayers = document.getElementById("nplayers").value;
+    if (nplayers > 2 && nplayers < 8) {
     section = document.getElementById("start_section");
     section.innerHTML = '';
     for (let i = 0; i < nplayers; i++) {
@@ -45,6 +46,10 @@ playerbtn.addEventListener("click", function(){
     savebtn.textContent = "Save Players";
     savebtn.className = "button";
     section.appendChild(savebtn);
+    }
+    else {
+        alert("Choose a Number between 2 and 8 players.")
+    }
 });
 
 //Get player names and save them in an array
