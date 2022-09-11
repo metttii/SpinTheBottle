@@ -23,7 +23,6 @@ async function getDatafromJSON() {
     challenges.push.apply(challenges, data);
 };
 getDatafromJSON()
-console.log(challenges)
 
 //Get Number of Players and create NameInputFields
 
@@ -102,7 +101,6 @@ var Position = {
         angles.push(angle);
         c.className = cls;
         c.innerHTML = players[i];
-        console.log(players[i].length)
         c.id = "player_" + i
         c.style.top = y  + 'px';
         c.style.left = x  + 'px';
@@ -117,6 +115,11 @@ var Position = {
 //Load Main Game
 
 startbtn.addEventListener("click", function(){
+    for (var i = 0, max = challenges.length; i < max; i++) {
+        numberpool.push(i)
+    };
+    console.log(numberpool)
+    console.log(numberpool.length)
     document.body.innerHTML = '';
     var circle = document.createElement('div');
     circle.className = "circle";
@@ -131,7 +134,7 @@ startbtn.addEventListener("click", function(){
     circle.appendChild(spinner);
 });
 
-//Spin when the arrow is clicked, disable further clicking
+//Spin when the arrow is clicked, make challenges unique, disable further clicking
 
 
 function spin(s){
@@ -142,7 +145,12 @@ function spin(s){
     var target = angles[finalrandomdeg] - 90 + ranresult;
     selectedplayer = players[finalrandomdeg]
     document.getElementById("arrow_png").style.transform = "rotate(" + target + "deg)";
-    setTimeout(displayChallange, 6000);
+    if (numberpool.length > 0) {
+        setTimeout(displayChallange, 6000);
+    }
+    else {
+        alert("No more challenges left. Reload to play again!")
+    }
     noclick.className = "noclick";
     noclick.id = "noclick";
     document.body.appendChild(noclick);
@@ -151,8 +159,12 @@ function spin(s){
 
 //Display the player and the challenge; make background clickable again
 
-function displayChallange()
-{   let task = challenges[Math.floor(Math.random()*challenges.length)];
+
+function displayChallange() {   
+    var random = numberpool.splice(Math.random()*numberpool.length,1)[0];
+    let task = challenges[random];
+    console.log(numberpool.length)
+    console.log(numberpool)
     challengewindow.id = 'challenge_' + task.id;
     challengewindow.className = "challenge";
     challengewindow.innerHTML = '<div id="challengepar" class="challengepar">' + selectedplayer + '<br>' + '<br>' + task.challenge + '</div>';
