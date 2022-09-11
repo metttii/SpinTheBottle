@@ -23,5 +23,6 @@ Notes:
 - When a rulecard pops up the spinner has to set up a rule which the whole group has to follow for the rest of the game.
 - When a drink-card pops up the spinner has to drink :).
 
+[TRY IT OUT](http://stb.lately.lu)
 
 HAVE FUN!!!!
