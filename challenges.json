@@ -339,7 +339,7 @@
 
             {
     "id" : "67",
-    "challenge" : "Küss deinen linken/rechten Nachbarn auf die Wange oder den Mund."
+    "challenge" : "Küss Flasche auf den Mund."
     },
 
                 {
@@ -354,12 +354,12 @@
 
                 {
     "id" : "70",
-    "challenge" : "Tausche dein Oberteil mit dem Spieler rechts von dir."
+    "challenge" : "Tausche dein Oberteil mit Flasche."
     },
 
                 {
     "id" : "71",
-    "challenge" : "Tausche dein Oberteil mit dem Spieler links von dir."
+    "challenge" : "Tausche dein Oberteil mit Flasche."
     },
 
                 {
@@ -399,12 +399,12 @@
 
                 {
     "id" : "79",
-    "challenge" : "Trink das Getränk von dem Spieler links von dir auf ex."
+    "challenge" : "Trink das Getränk von Flasche auf ex."
     },
 
                 {
     "id" : "80",
-    "challenge" : "Trink das Getränk von dem Spieler rechts von dir auf ex."
+    "challenge" : "Trink das Getränk von Flasche auf ex."
     },
 
                 {
@@ -414,12 +414,12 @@
 
                 {
     "id" : "82",
-    "challenge" : "Beleidige die Person links von dir."
+    "challenge" : "Beleidige Flasche! Flasche darf dich natürlich auch zurückbeleidigen."
     },
 
             {
     "id" : "83",
-    "challenge" : "Beleidige die Person rechts von dir."
+    "challenge" : "Beleidige Flasche! Flasche darf dich natürlich auch zurückbeleidigen."
     },
 
                 {
@@ -449,12 +449,12 @@
 
                 {
     "id" : "90",
-    "challenge" : "Flirte eine Runde mit der Person links von dir."
+    "challenge" : "Flirte eine Runde mit Flasche."
     },
 
                 {
     "id" : "91",
-    "challenge" : "Flirte eine Runde mit der Person rechts von dir."
+    "challenge" : "Flirte eine Runde mit Flasche."
     },
 
             {
@@ -574,7 +574,7 @@
 
                 {
     "id" : "115",
-    "challenge" : "Lass den Spieler links von dir etwas von deinem Hals lecken."
+    "challenge" : "Lass Flasche dir etwas von deinem Hals lecken."
     },
 
                 {
