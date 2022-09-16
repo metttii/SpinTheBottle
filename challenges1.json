@@ -1,7 +1,7 @@
 [
 {
     "id" : "1",
-    "challenge" : "Fülle deinen Mund für 2 Minuten mit Wasser. Flasche versuchen, dass du das Wasser ausspuckst. Der Verlierer/Die Verliererin muss trinken!"
+    "challenge" : "Fülle deinen Mund für 2 Minuten mit Wasser. Alle anderen versuchen, dass du das Wasser ausspuckst. Der Verlierer/Die Verliererin muss trinken!"
     },
 
     {
@@ -11,7 +11,7 @@
 
     {
     "id" : "3",
-    "challenge" : "Staring contest mit Flasche"
+    "challenge" : "Staring contest mit der Person gegenüber!"
     },
 
     {
@@ -21,7 +21,7 @@
 
     {
     "id" : "5",
-    "challenge" : "Schließe deine Augen für 2 Minuten. Flasche muss versuchen sie wieder zu öffnen."
+    "challenge" : "Schließe deine Augen für 2 Minuten. Einer / Eine aus der Runde muss versuchen sie wieder zu öffnen."
     },
 
     {
@@ -61,7 +61,7 @@
 
     {
     "id" : "13",
-    "challenge" : "Vergleiche deinen aktuellen Akkustand mit Flasche. Der / Die niedrigere muss trinken!"
+    "challenge" : "Vergleiche deinen aktuellen Akkustand mit der Person rechts neben dir. Der / Die niedrigere muss trinken!"
     },
     
     {
@@ -81,12 +81,12 @@
 
     {
     "id" : "17",
-    "challenge" : "Flasche muss dir einen Drink holen."
+    "challenge" : "Einer / Eine aus der Runde muss mir einen Drink holen."
     },
 
     {
     "id" : "18",
-    "challenge" : "Platziere deine Hände auf dem Tisch/Boden. Flasche hat 30 Sekunden Zeit die Hände aufzuheben!"
+    "challenge" : "Platziere deine Hände auf dem Tisch/Boden. Einer / Eine aus der Runde hat 30 Sekunden Zeit die Hände aufzuheben!"
     },
 
     {
@@ -136,12 +136,12 @@
 
     {
     "id" : "28",
-    "challenge" : "Flasche muss die Farben deiner Socken erraten."
+    "challenge" : "Einer / Eine aus der Runde muss die Farben deiner Socken erraten."
     },
 
     {
     "id" : "29",
-    "challenge" : "Flasche muss deine Lieblingsfarbe erraten!"
+    "challenge" : "Frag jemanden aus der Runde was deine Lieblingsfarbe ist."
     },
 
     {
@@ -186,7 +186,7 @@
 
     {
     "id" : "37",
-    "challenge" : "90 Sekunden kompletter Schweigefuchs!"
+    "challenge" : "90 Sekunden kompletter Stillstand!"
     },
 
     {
@@ -196,7 +196,7 @@
 
     {
     "id" : "39",
-    "challenge" : "Imitiere einen Schauspieler / eine Schauspielerin. Wer es als erste(r) herausfindet darf Schlucke verteilen."
+    "challenge" : "Imitiere einen Schauspieler / eine Schauspielerin. Wer es als erste(r) herausfindet darf verteilen."
     },
 
     {
@@ -216,7 +216,7 @@
 
         {
     "id" : "42",
-    "challenge" : "Wenn du mit einer Person in der Runde rummachen müsstest, wen würdest du auswählen?"
+    "challenge" : "Wenn du mit einer Person in der Runde schlafen müsstest, wen würdest du auswählen?"
     },
         {
     "id" : "43",
@@ -234,7 +234,7 @@
 
         {
     "id" : "46",
-    "challenge" : "Wann hattest du deinen letzten feuchten Traum? Von was/wem?"
+    "challenge" : "Wann hattest du deinen letzten feuchten Traum?"
     },
 
         {
@@ -334,7 +334,7 @@
 
             {
     "id" : "66",
-    "challenge" : "Hast du ein Sexspielzeug? Wenn ja, welches?"
+    "challenge" : "Hast du ein Sexspielzeug?"
     },
 
             {
@@ -344,7 +344,7 @@
 
                 {
     "id" : "68",
-    "challenge" : "Zeig uns deine Suchhistorie."
+    "challenge" : "Zeig uns deine Google Suchhistorie."
     },
 
             {
@@ -384,7 +384,7 @@
 
                 {
     "id" : "76",
-    "challenge" : "Mach der Flasche ein ernstgemeintes Kompliment."
+    "challenge" : "Mach der Person links/rechts von dir ein ernstgemeintes Kompliment."
     },
 
             {
@@ -399,7 +399,7 @@
 
                 {
     "id" : "79",
-    "challenge" : "Trink das Getränk von dem Spieler links von dir auf ex."
+    "challenge" : "Trink das Getränk von dem Spieler links von dir auf ex. "
     },
 
                 {
@@ -414,22 +414,22 @@
 
                 {
     "id" : "82",
-    "challenge" : "Beleidige die Person links von dir."
+    "challenge" : "Beleidige die Person links von dir. "
     },
 
             {
     "id" : "83",
-    "challenge" : "Beleidige die Person rechts von dir."
+    "challenge" : "Beleidige die Person rechts von dir. "
     },
 
                 {
     "id" : "84",
-    "challenge" : "Schick einer Person per Whatsapp ein Kompliment."
+    "challenge" : "Schick einer Person per Whatsapp ein Kompliment. "
     },
 
             {
     "id" : "85",
-    "challenge" : "Zeig allen ein peinliches Foto von dir."
+    "challenge" : "Zeig allen ein peinliches Foto von dir. "
     },
 
                 {
@@ -439,12 +439,12 @@
 
                 {
     "id" : "87",
-    "challenge" : "Zeig allen das letzte Foto was du geschossen hast."
+    "challenge" : "Zeig allen das letzte Foto was du geschossen hast. "
     },
 
                 {
     "id" : "89",
-    "challenge" : "Umarme die Person gegenüber so herzlich wie möglich."
+    "challenge" : "Umarme die Person gegenüber so herzlich wie möglich. "
     },
 
                 {
@@ -479,37 +479,37 @@
 
                 {
     "id" : "96",
-    "challenge" : "Schütte dir einen Drink ein, ohne die Hände zu benutzen."
+    "challenge" : "Schütte dir einen Drink ein, ohne die Hände zu benutzen. "
     },
 
                 {
     "id" : "97",
-    "challenge" : "Ruf die fünft letzte Nummer die du gewählt hast an, frag die Person wie das folgende Lied heißt und sing es ihr vor, bis sie den Titel nennt."
+    "challenge" : "Ruf die fünft letzte Nummer die du gewählt hast an, frag die Person wie das folgende Lied heißt und sing es ihr vor, bis sie den Titel nennt. "
     },
 
                 {
     "id" : "98",
-    "challenge" : "Du bist für eine Runde der Buttler. Achte darauf, dass alle Gäste immer genug zu trinken haben und behandle sie mit ausreichend Respekt."
+    "challenge" : "Du bist für eine Runde der Buttler. Achte darauf, dass alle Gäste immer genug zu trinken haben und behandle sie mit ausreichend Respekt. "
     },
 
                 {
     "id" : "99",
-    "challenge" : "Du hast dich schlecht verhalten. Stell dich eine Runde in die Ecke und schäm dich."
+    "challenge" : "Du hast dich schlecht verhalten. Stell dich eine Runde in die Ecke und schäm dich. "
     },
 
             {
     "id" : "100",
-    "challenge" : "Lass einen Spieler an deiner Achsel riechen."
+    "challenge" : "Lass einen Spieler an deiner Achsel riechen. "
     },
 
                 {
     "id" : "101",
-    "challenge" : "Du bist jetzt Aphrodite! Du darfst entscheiden wer sich küssen muss."
+    "challenge" : "Tausche dein T-Shirt mit der Person rechts neben dir."
     },
 
             {
     "id" : "102",
-    "challenge" : "Gib Flasche dein Handy und lass ihn in deine Foto-Galerie schauen."
+    "challenge" : "Gib deinem linken Nachbarn dein Handy und lass ihn in deine Foto-Galerie schauen."
     },
 
                 {
@@ -534,17 +534,17 @@
 
                 {
     "id" : "107",
-    "challenge" : "Gib Flasche einen Kuss."
+    "challenge" : "Gib dem Spieler links von dir einen Kuss."
     },
 
             {
     "id" : "108",
-    "challenge" : "Gib Flasche einen Kuss."
+    "challenge" : "Gib dem Spieler rechts von dir einen Kuss."
     },
 
                 {
     "id" : "109",
-    "challenge" : "Geh auf alle Viere und lass dir von Flasche auf den Hintern hauen."
+    "challenge" : "Geh auf alle Viere und lass dir auf den Hintern hauen."
     },
 
             {
@@ -554,7 +554,7 @@
 
                 {
     "id" : "111",
-    "challenge" : "Flüster Flasche etwas heißes ins Ohr."
+    "challenge" : "Flüster der Person gegenüber etwas heißes ins Ohr."
     },
 
                 {
@@ -599,12 +599,12 @@
 
                     {
     "id" : "120",
-    "challenge" : "Lass dir von Flasche einen Knutschfleck am Hals oder am Bauch verpassen."
+    "challenge" : "Lass dir von deinem linken oder rechten Mitspieler einen Knutschfleck am Hals oder am Bauch verpassen."
     },
 
                     {
     "id" : "121",
-    "challenge" : "Such dir jemanden aus, den du eine Runde lang extraordinär gut massieren musst."
+    "challenge" : "Such dir jemanden aus, den du eine Runde lang erotisch massieren musst."
     },
 
                     {
@@ -674,12 +674,12 @@
 
                     {
     "id" : "135",
-    "challenge" : "Iss ein Stück Knoblauch!"
+    "challenge" : "Iss ein Stück Knoblauch."
     },
 
                     {
     "id" : "136",
-    "challenge" : "Füttere Flasche mit etwas Leckerem!"
+    "challenge" : "Füttere die Person rechts neben dir mit etwas Leckerem."
     },
 
                     {
@@ -699,12 +699,12 @@
 
                     {
     "id" : "140",
-    "challenge" : "Flasche darf dir ein Gebräu aus allen möglichen Zutaten mischen und du musst es trinken."
+    "challenge" : "Der Spieler / Die Spielerin rechts von dir darf dir ein Gebräu aus allen möglichen Zutaten mischen und du musst es trinken."
     },
 
                     {
     "id" : "141",
-    "challenge" : "Iss einen Esslöffel Mayo."
+    "challenge" : "Iss einen Esslöffel Senf."
     },
 
                     {
@@ -744,7 +744,7 @@
 
                     {
     "id" : "149",
-    "challenge" : "Bring Flasche zum lachen (ohne Hilfsmittel)"
+    "challenge" : "Bring die rechts zum lachen (ohne Hilfsmittel)"
     },
 
                     {
@@ -769,7 +769,7 @@
 
                     {
     "id" : "154",
-    "challenge" : "Sei ein/eine Hellseher/in und sage die Zukunft von Flasche voraus"
+    "challenge" : "Sei ein/eine Hellseher/in und sage die Zukunft von dem Links voraus"
     },
 
                     {
@@ -779,146 +779,21 @@
 
                     {
     "id" : "156",
-    "challenge" : "Flasche darf sich einen Spitznamen für dich ausdenken und muss dich dann so nennen."
+    "challenge" : "Der Links von dir darf sich einen Spitznamen für dich ausdenken und muss dich dann so nennen."
     },
 
-    {
+                    {
     "id" : "157",
-    "challenge" : "Du bist jetzt Aphrodite! Du darfst entscheiden wer sich küssen muss."
+    "challenge" : "Schultermassage für dein Gegenüber!"
     },
 
                     {
     "id" : "158",
-    "challenge" : "Schultermassage für Flasche!"
+    "challenge" : "Lasse dir von dem rechts von dir ein Getränk aus 4 Zutaten mischen."
     },
 
                     {
     "id" : "159",
-    "challenge" : "Lasse dir von Flasche ein Getränk aus 4 Zutaten mischen."
-    },
-
-                    {
-    "id" : "160",
     "challenge" : "Springe in den Pool!"
-    },
-
-    {
-    "id" : "161",
-    "challenge" : "Flasche muss die Farben deiner Unterwäsche erraten."
-    },
-
-    {
-    "id" : "162",
-    "challenge" : "Tausche dein Oberteil mit dem Spieler links von dir."
-    },
-
-    {
-    "id" : "164",
-    "challenge" : "Du bist jetzt Aphrodite! Du darfst entscheiden wer sich küssen muss."
-    },
-
-        {
-    "id" : "165",
-    "challenge" : "Neue Regel!"
-    },
-
-        {
-    "id" : "166",
-    "challenge" : "Jeder Trinkt!"
-    },
-
-        {
-    "id" : "167",
-    "challenge" : "Wildcard!"
-    },
-
-        {
-    "id" : "168",
-    "challenge" : "Drink!"
-    },
-
-        {
-    "id" : "169",
-    "challenge" : "Jeder Trinkt!"
-    },
-
-        {
-    "id" : "170",
-    "challenge" : "Du bist jetzt Aphrodite! Du darfst entscheiden wer sich küssen muss."
-    },
-
-            {
-    "id" : "171",
-    "challenge" : "Sing uns ein schönes Lied!"
-    },
-
-                {
-    "id" : "172",
-    "challenge" : "Jeder Trinkt!"
-    },
-
-                    {
-    "id" : "173",
-    "challenge" : "Erzähle uns einen Flachwitz!"
-    },
-
-                    {
-    "id" : "174",
-    "challenge" : "Schere, Stein, Papier mit Flasche. Der / Die Verlierer/in trinkt!"
-    },
-
-                        {
-    "id" : "175",
-    "challenge" : "Umarme Flasche für 20 Sekunden!"
-    },
-
-                        {
-    "id" : "176",
-    "challenge" : "Staring contest mit Flasche! Wer als erst lacht muss trinken!"
-    },
-
-                            {
-    "id" : "177",
-    "challenge" : "Was kannst du beim Sex besonders gut?"
-    },
-
-                                {
-    "id" : "178",
-    "challenge" : "Beschreibe Flasches wildeste Fantasie!"
-    },
-
-                                    {
-    "id" : "179",
-    "challenge" : "Hattest du schon mal einen Ups-Moment? Wenn ja trinke!"
-    },
-
-                                        {
-    "id" : "180",
-    "challenge" : "Trinke 3 Schlucke wenn du schonmal einen Orgasmus gefaked hast! Tell us the Story!"
-    },
-
-                                        {
-    "id" : "181",
-    "challenge" : "Erzähl uns von deinem Schlimmsten Date!"
-    },
-
-                                        {
-    "id" : "182",
-    "challenge" : "Trinke 2 Schlucke wenn du öfter oben bist und trinke 4 Schlucke wenn du öfter unten bist!"
-    },
-
-                                        {
-    "id" : "183",
-    "challenge" : "Schließe deine Augen und sag uns was die Augenfarbe von Flasche ist!"
-    },
-
-                                            {
-    "id" : "184",
-    "challenge" : "Trinke 3 Schlucke wenn du schonmal Kapitän / Kapitänin warst und eine Person entjungfert hast!"
-    },
-
-                                            {
-    "id" : "185",
-    "challenge" : "Trinke einen Schluck für jede Person, mit der du im Raum schlafen würdest!"
     }
 ]
